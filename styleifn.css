@@ -34,11 +34,24 @@ ul {
 /*--ENDs the header section*/
 /*Starts the content Section--*/
 .relevantStuff {
-    padding-top: 100px;
-}
-.relevantStuff img {
+    height: 70vh;
     width: 100%;
+    background-color: var(--main-yellow);
+    animation: slide 10s infinite;
 }
+@keyframes slide {
+    25% {
+        background-color: var(--main-blue);
+    }
+    75% {
+        background-color: var(--light-blue);
+    }
+    100% {
+        background-color: var(--main-yellow);
+    }
+}
+
+
 
 /*Starts-RecentNews section*/
 .recentNews {
