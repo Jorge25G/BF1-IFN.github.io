@@ -34,20 +34,27 @@ ul {
 /*--ENDs the header section*/
 /*Starts the content Section--*/
 .relevantStuff {
-    height: 70vh;
+    margin-top: 3rem;
+    height: 35vh;
     width: 100%;
-    background-color: var(--main-yellow);
-    animation: slide 10s infinite;
+    background-image: url('images-ifn/IFN/banner2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slide 30s infinite;
 }
 @keyframes slide {
     25% {
-        background-color: var(--main-blue);
+        background-image: url('images-ifn/IFN/ifntop.png');
+    }
+    50% {
+        background-image: url('images-ifn/build/buil-3.png');
     }
     75% {
-        background-color: var(--light-blue);
+        background-image: url('images-ifn/IFN/visionifn.png');
     }
     100% {
-        background-color: var(--main-yellow);
+        background-image: url('images-ifn/IFN/banner2.png');
     }
 }
 
